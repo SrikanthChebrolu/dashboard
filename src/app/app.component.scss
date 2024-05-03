@@ -1,0 +1,46 @@
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-drawer {
+  width: 20rem;
+}
+
+.icon-display {
+  transform: scale(2);
+}
+
+.side-nav-profile-toolbar{
+  text-align:center;
+  position: relative;
+  height: 20%;
+}
+
+.side-nav-menu-header {
+  width: 100%;
+}
+
+.list-item-small {
+  margin: -0.7rem;
+  font-size: 12px;
+}
+
+.list-item-large {
+  font-size: 20px;
+}
+
+.list-item-details{
+  margin: -0.05rem;
+}
+
+.button-printer-set{
+  width: 100%!important;
+}

@@ -1,0 +1,66 @@
+<mat-sidenav-container class="example-container">
+  <mat-sidenav #sidenav class="example-sidenav" mode="over" position="end">
+    <mat-toolbar color="primary" class="side-nav-profile-toolbar">
+      <div class="side-nav-menu-header">
+        <mat-icon class="icon-display">account_circle</mat-icon>
+        <dl class="list-item-details">
+          <dt class="list-item-large">Venkatesh Chebrolu</dt>
+          <dt class="list-item-small">vc3456</dt>
+          <dt class="list-item-small">Venkatesh_Chebrolu_me.com</dt>
+        </dl>
+      </div>
+    </mat-toolbar>
+    <mat-list>
+        <mat-list-item>
+          <mat-icon matListItemIcon>home</mat-icon>
+          <div matListItemTitle>Home</div>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListItemIcon>
+            emoji_nature
+          </mat-icon>
+          <div matListItemTitle>Polination</div>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListItemIcon>agriculture</mat-icon>
+          <div matListItemTitle>Harvest</div>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListItemIcon>history</mat-icon>
+          <div matListItemTitle>Plant History</div>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListItemIcon>sticky_note_2</mat-icon>
+          <div matListItemTitle>Notes</div>
+        </mat-list-item>
+        <mat-list-item>
+          <mat-icon matListItemIcon>delete</mat-icon>
+          <div matListItemTitle>Discard</div>
+        </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <mat-icon matListItemIcon>logout</mat-icon>
+        <div matListItemTitle>Logout</div>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <div mat-subheader>Printer: No printer is connected</div>
+      <mat-list-item>
+        <button mat-fab extended color="primary" class="button-printer-set">
+          <mat-icon>print</mat-icon>
+          Set Printer
+        </button>
+      </mat-list-item>
+      
+    </mat-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <span>Venkatesh Chebrolu</span>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon"
+        (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </mat-toolbar>
+  </mat-sidenav-content>
+</mat-sidenav-container>
